@@ -483,7 +483,7 @@ opti.minimize(t[N] + (reg_weight * P_diff_penalty)  + (slack_weight * slack_pena
 
 # 7a. QSS INITIAL GUESS
 
-warm_start_file = f'warm_start_{track}.npz'
+warm_start_file = f'Warm Start/warm_start_{track}.npz'
 use_warm_start = os.path.exists(warm_start_file)
 
 if use_warm_start:
