@@ -58,7 +58,7 @@ Run the track processor script to generate track mesh.
 
 Run the main CasADi optimizer script to calculate the optimal lap time and energy deployment.
 
-* **Configuration:** At the top of the file, you can set the `track` name, the PU regulation `YEAR` (2026, 2027, or 2028), and the optimization `MODE` (QUALIFYING, RACE, RACE_OT).
+* **Configuration:** At the top of the file, you can set the `track` name, Max Regen per lap, starting speed for a Quali Lap. the PU regulation `YEAR` (2026, 2027, or 2028), and the optimization `MODE` (QUALIFYING, RACE, RACE_OT).
 
 
 * **Warm Start:** The script will automatically look for a `warm_start_{track}.npz` file. If none exists, it calculates a quasi-steady-state (QSS) initial guess.
